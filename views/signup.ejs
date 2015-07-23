@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" href="./stylesheets/main.css" type="text/css">
+	
+
+
+	<style type="text/css">
+  
+	
+	</style>
+</head>
+
+<body>
+<h1>home page</h1>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+
+    <ul class="reg">
+      <li>Signup</li>
+      <li><a href="/login">Login</a></li>
+      
+    </ul>
+
+  </nav>
+</header>
+
+<section>
+  <div class="container">
+    <div class="first_content">
+      <div class="register">
+          <h3>Create your account</h3>
+          <form id="reg-form" action="/login" method="post">
+            <div class="first">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" spellcheck="false" placeholder=""/>
+            </div>
+            <br>
+            <div class="first">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" spellcheck="false" placeholder="demo@xyz.com"/>
+            </div>
+            <br>
+            <div class="first">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" spellcheck="false" placeholder="" />
+            </div>
+            <br>
+            <div class="first">
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <br>
+            <div class="first">
+              <label for="mobile">Mobile:</label>
+              <input type="text" id="mobile" name="mobile" spellcheck="false" placeholder=""/>
+            </div>
+            <br>
+            
+            <div class="first">
+              <label></label>
+              <input type="submit" value="Create Account" id="create-account" class="button"/>
+            </div>
+
+            <div class="login-help">
+              <a href="/login">Login</a>
+            </div>
+          </form> 
+      </div> <!--Register div close-->
+
+    </div>
+  </div>
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
