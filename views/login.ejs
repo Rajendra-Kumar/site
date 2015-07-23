@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<div class="mainpage">
 <h1>home page</h1>
 
 <header>
@@ -37,7 +38,7 @@
       <div class="login">
         <h1>Login to Web App</h1>
         <form method="post" action="/homepage">
-          <p><input type="text" name="email" placeholder="Username or Email"></p>
+          <p><input type="text" name="email" placeholder="Email"></p>
           <p><input type="password" name="password" value="" placeholder="Password"></p>
           <p class="remember_me">
             <label>
@@ -59,10 +60,7 @@
     </div>
   </div>
 </section>
-
-<footer>
-
-</footer>
-
+<%- include footer.ejs %>
+</div>
 </body>
 </html>
